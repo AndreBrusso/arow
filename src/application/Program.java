@@ -14,10 +14,10 @@ public class Program {
 
        List<Product> list = new ArrayList<>();
 
-       list.add(new Product("TV", 800.00));
-       list.add(new Product("Mouse", 60.00));
-       list.add(new Product("Tablet", 350.00));
-       list.add(new Product("HD Case", 90.90));
+       list.add(new Product("TV", 900.00));
+       list.add(new Product("Mouse", 70.00));
+       list.add(new Product("Tablet", 450.00));
+       list.add(new Product("HD Case", 400.90));
 
        list.stream().map(p -> p.getName().toUpperCase()).collect(Collectors.toList()).forEach(System.out::println);
 
